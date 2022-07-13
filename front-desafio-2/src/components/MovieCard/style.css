@@ -1,0 +1,55 @@
+.movie-card {
+    height: 252px;
+    width: 168px;
+    flex-direction: column;
+}
+
+.movie-info {
+    margin: auto 8px 8px 8px;
+    font-weight: 700;
+}
+
+.movie-title {
+    height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.golden-star {
+    height: 16px;
+    width: auto;
+}
+
+.movie-rating {
+    color: #FBCD6E;
+    margin-left: 2px;
+}
+
+.buy-movie-btn {
+    all: unset;
+    margin: 0 8px 8px 8px;
+    box-sizing: border-box;
+    padding: 4px 8px;
+    background-color: #A785ED;
+    height: 26px;
+}
+
+.movie-card, .movie-info, .rating, .buy-movie-btn {
+    display: flex;
+    align-items: center;
+}
+
+.movie-info, .buy-movie-btn {
+    width: 152px;
+    justify-content: space-between;
+}
+
+.movie-rating, .buy-movie-btn {
+    font-size: 12px;
+}
+
+.buy-movie-btn:hover {
+    cursor: pointer;
+    background: linear-gradient(0deg, rgba(46, 46, 46, 0.45), rgba(46, 46, 46, 0.45)), #A785ED;
+}

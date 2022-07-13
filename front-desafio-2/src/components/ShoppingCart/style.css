@@ -1,0 +1,100 @@
+.shopping-cart {
+    width: 312px;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: fit-content;
+    position: sticky;
+    top: 20px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.shopping-cart, .movie-data {
+    flex-direction: column;
+}
+
+.shopping-cart, .top-bar, .shopping-cart-content {
+    align-items: center;
+}
+
+.top-bar {
+    background-color: #A785ED;
+    height: 72px;
+    width: 100%;
+    justify-content: center;
+}
+
+.top-bar, .empty-shopping-cart h1 {
+    font-size: 24px;
+}
+
+.shopping-cart-content {
+    margin: 20px 10px;
+    justify-items: flex-start;
+}
+
+.movie-poster {
+    height: 68px;
+    width: 45px;
+}
+
+.movie-poster {
+    margin-right: 10px;
+}
+
+.movie-data {
+    width: 138px;
+    gap: 8px;
+}
+
+.shopping-cart-movie-title {
+    font-size: 13px;
+}
+
+.shopping-cart-movie-price, .movie-qty {
+    font-weight: 400;
+}
+
+.handle-increase, .handle-decrease {
+    width: 24px;
+    height: auto;
+}
+
+.handle-increase:hover, .handle-decrease:hover {
+     background-color: #6B6B6B;
+}
+
+.movie-qty {
+    width: 38px;
+    text-align: center;
+}
+
+.check-out-btn {
+    all: unset;
+    box-sizing: border-box;
+    padding: 16px;
+    background-color: #E25EBF;
+    height: 56px;
+    width: 292px;
+    color: inherit;
+    margin-bottom: 10px;
+}
+
+.shopping-cart, .top-bar, .shopping-cart-content, .movie-data, .shopping-cart-qty, .check-out-btn {
+    display: flex;
+}
+
+.top-bar, .empty-shopping-cart h1, .shopping-cart-movie-title, .check-out-btn {
+    font-weight: 700;
+}
+
+.handle-increase:hover, .handle-decrease:hover, .check-out-btn:hover {
+    cursor: pointer;
+}
+
+.check-out-btn:hover {
+    background: linear-gradient(0deg, rgba(225, 123, 123, 0.45), rgba(225, 123, 123, 0.45)), #FFB6EB;
+}
+
+.final-price {
+    margin-left: auto;
+}
